@@ -18,15 +18,15 @@ public class ArithmeticOperationTest {
 
 	}
 	
-//     @Test
-//     public void testSub()
-//     {
+    @Test
+    public void testSub()
+    {
 
-//         ArithmeticOperation operations = new ArithmeticOperation();
-//         Integer actual = operations.addOrSub(6, 2);
-//         Integer expected = 4;
-//         assertEquals(expected, actual);
+        ArithmeticOperation operations = new ArithmeticOperation();
+        Integer actual = operations.addOrSub(6, 2);
+        Integer expected = 4;
+        assertEquals(expected, actual);
 
-//     }
+    }
 
 }
