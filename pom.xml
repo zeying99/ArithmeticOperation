@@ -54,6 +54,25 @@
 					<outputDirectory>target/jacoco-ut</outputDirectory>
 				  </configuration>
 				</execution>
+				    <execution>                                           
+    <id>default-testCompile</id>
+    <phase>test-compile</phase>
+    <goals>
+        <goal>testCompile</goal>
+    </goals>                   
+
+    <configuration>                                     
+      <skip>true</skip>
+    </configuration>
+  </execution>                  
+  <execution>                                           
+    <id>test-compile-error-prone</id>                   
+    <phase>test-compile</phase>                         
+    <goals>                                             
+      <goal>testCompile</goal>                          
+    </goals>                                            
+    <configuration>                                     
+      <failOnError>false</failOnError>  
 			  </executions>
 			</plugin>
 		</plugins>
