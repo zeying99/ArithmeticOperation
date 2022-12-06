@@ -9,6 +9,7 @@
 		<maven.compiler.target>9</maven.compiler.target>
 		<junit.version>4.12</junit.version>
 		<jacoco.version>0.8.6</jacoco.version>
+		<java.version>15.0.2</java.version>
 	</properties>
 
 	<dependencies>
