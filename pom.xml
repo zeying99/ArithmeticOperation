@@ -60,15 +60,6 @@ project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2
       <skip>true</skip>
     </configuration>
   </execution>                  
-  <execution>                                           
-    <id>test-compile-error-prone</id>                   
-    <phase>test-compile</phase>                         
-    <goals>                                             
-      <goal>testCompile</goal>                          
-    </goals>                                            
-    <configuration>                                     
-      <failOnError>false</failOnError> 
-	    </configuration>  
 			  </executions>
 			</plugin>
 		</plugins>
